@@ -1,0 +1,12 @@
+{
+  "name": "dice-server",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}
