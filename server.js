@@ -8,7 +8,7 @@ const io = new Server(app, {
     origin: [
       // "http://localhost:3000",
       /\-\-dand\.netlify\.app$/,
-      /sint\.dev$/
+      /\.sint\.dev$/
     ],
     credentials: true
   }
