@@ -6,10 +6,11 @@ const app = createServer();
 const io = new Server(app, {
   cors: {
     origin: [
-      "http://localhost:3000",
-      "/dand\.netlify\.app$/",
-      "/sint\.dev$/"
-    ]
+      // "http://localhost:3000",
+      /\-\-dand\.netlify\.app$/,
+      /sint\.dev$/
+    ],
+    credentials: true
   }
 });
 

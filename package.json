@@ -2,6 +2,9 @@
   "name": "dice-server",
   "version": "0.0.2",
   "description": "",
+  "engines": {
+    "node": "14"
+  },
   "main": "server.js",
   "type": "module",
   "scripts": {
