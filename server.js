@@ -1,15 +1,16 @@
 import { createServer } from 'http';
 import { Server } from 'socket.io';
 import { v4 as uuidv4 } from 'uuid';
+import { config } from 'dotenv';
+config()
+
+const origin = process.env.ORIGIN;
+if (!origin) throw new Error('This program requires a valid CORS origin value in an environment variable called `ORIGIN` see cors package for more information https://github.com/expressjs/cors#readme')
 
 const app = createServer();
 const io = new Server(app, {
   cors: {
-    origin: [
-      // "http://localhost:3000",
-      /\-\-dand\.netlify\.app$/,
-      /sint\.dev$/
-    ],
+    origin: eval(origin),
     credentials: true
   }
 });
