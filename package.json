@@ -1,15 +1,20 @@
 {
   "name": "dice-server",
   "version": "0.0.3",
-  "description": "",
+  "description": "Dnd Dice server that matches with the dnd-dice application",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidSint/dice-server.git"
+  },
   "engines": {
-    "node": "14"
+    "node": "^14.16.0"
   },
   "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node server.js"
   },
+  "author": "David Sint",
   "dependencies": {
     "dotenv": "^8.2.0",
     "socket.io": "^3.1.0",
