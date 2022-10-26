@@ -16,7 +16,7 @@
   },
   "author": "David Sint",
   "dependencies": {
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.6.0",
     "socket.io": "^3.1.0",
     "uuid": "^8.3.2"
   }
