@@ -7,7 +7,7 @@
     "url": "https://github.com/DavidSint/dice-server.git"
   },
   "engines": {
-    "node": "^14.16.0"
+    "node": "^18.12.0"
   },
   "main": "server.js",
   "type": "module",
@@ -16,8 +16,8 @@
   },
   "author": "David Sint",
   "dependencies": {
-    "dotenv": "^8.6.0",
-    "socket.io": "^3.1.0",
-    "uuid": "^8.3.2"
+    "dotenv": "^16.0.3",
+    "socket.io": "^4.6.1",
+    "uuid": "^9.0.0"
   }
 }
