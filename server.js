@@ -1,6 +1,6 @@
-import { createServer } from 'http';
+import { createServer } from 'node:http';
 import { Server } from 'socket.io';
-import { v4 as uuidv4 } from 'uuid';
+import { randomUUID } from 'node:crypto';
 import { config } from 'dotenv';
 config()
 
@@ -38,7 +38,7 @@ io.on('connection', (socket) => {
     const diceThrow = data.dice.map((die) => {
       const newRoll = getRandom(die);
       return {
-        id: `${uuidv4()}`,
+        id: `${randomUUID()}`,
         d: die,
         value: newRoll
       }
