@@ -20,7 +20,7 @@
   "dependencies": {
     "devalue": "^5.1.1",
     "dotenv": "^16.4.7",
-    "socket.io": "^4.8.1"
+    "socket.io": "^4.8.2"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
