@@ -18,12 +18,12 @@
   },
   "author": "David Sint",
   "dependencies": {
-    "devalue": "^5.1.1",
-    "dotenv": "^16.4.7",
-    "socket.io": "^4.8.1"
+    "devalue": "^5.6.4",
+    "dotenv": "^17.3.1",
+    "socket.io": "^4.8.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.4",
-    "typescript": "^5.8.3"
+    "@biomejs/biome": "^2.4.8",
+    "typescript": "^5.9.3"
   }
 }
