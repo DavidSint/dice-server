@@ -7,7 +7,7 @@
     "url": "https://github.com/DavidSint/dice-server.git"
   },
   "engines": {
-    "node": "^22.9.0"
+    "node": ">=22.9.0"
   },
   "main": "build/server.js",
   "type": "module",
