@@ -18,7 +18,7 @@
   },
   "author": "David Sint",
   "dependencies": {
-    "devalue": "^5.9.0",
+    "devalue": "^5.9.3",
     "dotenv": "^17.4.2",
     "socket.io": "^4.8.3"
   },
